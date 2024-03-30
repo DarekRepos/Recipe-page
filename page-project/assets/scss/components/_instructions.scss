@@ -1,0 +1,25 @@
+@use '../utils' as u;
+
+.instructions {
+    border-bottom: 1px var(--c-neutral-light-grey) solid;
+    padding-block-end: 1rem;
+
+    &__title {
+        font-size: var(--f-m);
+        font-weight: 400;
+        color: var(--c-primary-nutmeg);
+        padding-block: u.rem(36) u.rem(32);
+    }
+
+
+    li {
+        list-style-type: decimal;
+        margin-left: 1.5rem;
+        padding-left: 0.5rem;
+    }
+
+    ::marker {
+        color: var(--c-primary-nutmeg);
+        font-weight: 700;
+    }
+}
