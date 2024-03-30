@@ -1,0 +1,27 @@
+@use '../utils' as u;
+
+.preparation {
+    padding-block-start: 1rem;
+    background-color: hsl(330, 100%, 98%);
+    padding-block-end: 1rem;
+    border-radius: 1rem;
+
+    &__title {
+        color: var(--c-primary-dark-raspberry);
+        padding-left: 1.5rem;
+        padding-block: 0.5rem 0.75rem;
+        font-weight: 700;
+        font-size: var(--f-s);;
+    }
+
+    h3 {
+        font-family: 'Outfit', sans-serif;
+    }
+
+    div.bullet-color {
+        color: var(--c-primary-dark-raspberry);
+    }
+    li{
+        padding-inline: 2rem 2rem;
+    }
+}
