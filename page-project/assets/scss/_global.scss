@@ -1,0 +1,22 @@
+@use 'utils' as u;
+
+:root {
+    --c-primary-nutmeg: hsl(14, 45%, 36%);
+    --c-primary-dark-raspberry: hsl(332, 51%, 32%);
+    --c-neutral-white: hsl(0, 0%, 100%);
+    --c-neutral-rose-white: hsl(330, 100%, 98%);
+    --c-neutral-eggshell: hsl(30, 54%, 90%);
+    --c-neutral-light-grey: hsl(30, 18%, 87%);
+    --c-neutral-wenge-brown: hsl(30, 10%, 34%);
+    --c-neutral-dark-charcoal: hsl(24, 5%, 18%);
+
+    --f-xl: #{clamp(u.rem(40), 2.147887323943662rem + 1.5023474178403755vw, u.rem(56))};
+    --f-l: #{clamp(u.rem(32), 1.823943661971831rem + 0.7511737089201878vw, u.rem(40))};
+    --f-m: #{u.rem(27.2)};
+    --f-s: #{u.rem(20)};
+    --f-xs: #{u.rem(18)};
+    --f-body: #{u.rem(16)};
+
+    --content-max-width: 736px;
+    --padding-inline: 0;
+}
