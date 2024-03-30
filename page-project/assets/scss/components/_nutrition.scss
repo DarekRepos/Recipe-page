@@ -1,0 +1,11 @@
+@use '../utils' as u;
+
+.nutrition{
+    padding-block-end: 2rem;
+    &__title {
+        font-size: var(--f-m);
+        font-weight: 400;
+        color: var(--c-primary-nutmeg);
+        padding-block: u.rem(32) u.rem(32);
+    }
+}
