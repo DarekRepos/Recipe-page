@@ -1,0 +1,10 @@
+@use '../mixins' as r;
+
+.recipe {
+    &__image {
+        width: 100%;
+        @include r.media-up('md') {
+        border-radius: 1rem;
+        }
+    }
+}
