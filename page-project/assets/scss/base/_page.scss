@@ -1,0 +1,68 @@
+@use '../utils' as u;
+@use '../mixins' as r;
+
+.container {
+    // display: grid;
+    width: min(var(--content-max-width), 100%);
+    // grid-template-rows: auto;
+    // grid-template-rows: auto;
+    // grid-template-areas: 
+    // "main"
+    // "footer"
+    // ;
+    margin-inline: auto;
+    background-color: var(--c-neutral-white);
+
+    @include r.media-up('md') {
+        padding: 2.5rem;
+        border-radius: 1.25rem; //20px
+
+        margin-top: u.rem(123);
+        margin-bottom: u.rem(124);
+    }
+
+}
+
+section {
+    margin-inline: 2rem;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: var(--f-body);
+    color: var(--c-neutral-wenge-brown);
+    background-color: var(--c-neutral-eggshell);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'YoungSerif', serif;
+}
+
+li {
+    position: relative;
+    // margin-left: 2.25rem;
+    margin: 0 0 1rem 2.25rem;
+
+}
+
+.text-bullet-centered {
+    position: absolute;
+    left: -.5rem;
+    top: 50%;
+    transform: translate(0%, -50%);
+    font-weight: bold;
+
+}
+
+
+
+.bold {
+    font-weight: 700;
+}
