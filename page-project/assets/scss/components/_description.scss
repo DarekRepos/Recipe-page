@@ -1,0 +1,17 @@
+.description {
+    &__title {
+        line-height: 2.25rem;
+        color: var(--c-neutral-dark-charcoal);
+        font-size: var(--f-l);
+        font-weight: 400;
+        padding-block-start: 2.25rem;
+
+    }
+
+    &__text {
+        line-height: 1.5;
+        color: var(--c-neutral-wenge-brown);
+        font-weight: 400;
+        padding-block: 2.25rem 2.25rem;
+    }
+}
