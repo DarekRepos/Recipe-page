@@ -33,8 +33,8 @@ mobile view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://DarekRepos.github.io/Recipe-page/)
-- Live Site URL: [Add live site URL here](https://DarekRepos.github.io/Recipe-page/)
+- Solution URL: [solution URL here](https://DarekRepos.github.io/Recipe-page/)
+- Live Site URL: [live site URL here](https://DarekRepos.github.io/Recipe-page/)
 
 ## My process
 
