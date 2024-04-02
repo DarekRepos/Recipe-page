@@ -3,6 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name='language' content='EN'>
+  <meta name="keywords" content="recipe page frontend practice">
+  <meta name="description" content="This is website for the frontend practice">
+  <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
@@ -11,9 +15,44 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap" rel="stylesheet">
   <title>Frontend Mentor | Recipe page</title>
-
-  <script type="module" crossorigin src="/Recipe-page/assets/index-CAGLgfwW.js"></script>
-  <link rel="stylesheet" crossorigin href="/Recipe-page/assets/index-B5HyI9Zu.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": "Simple Omelette Recipe",
+      "image": "images/image-omelette.jpeg",
+      "description": "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
+      "author": {
+        "@type": "Person",
+        "name": "Darek Duda"  },
+      "prepTime": "PT5M",  "cookTime": "PT5M",  "totalTime": "PT10M",  "recipeYield": "1 serving",
+      "keywords": ["omelette", "eggs", "breakfast", "lunch", "dinner"],
+      "recipeIngredient": [
+        "2-3 large eggs",
+        "Salt, to taste",
+        "Pepper, to taste",
+        "1 tablespoon of butter or oil",
+        "Optional fillings: cheese, diced vegetables, cooked meats, herbs"
+      ],
+      "recipeInstructions": [
+        "Beat the eggs in a bowl with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.",
+        "Place a non-stick frying pan over medium heat and add butter or oil.",
+        "Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.",
+        "When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.",
+        "As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.",
+        "Serve hot, with additional salt and pepper if needed."
+      ],
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": "277kcal",
+        "carbohydrateContent": "0g",
+        "proteinContent": "20g",
+        "fatContent": "22g"
+      }
+    }
+    </script>
+  <script type="module" crossorigin src="/Recipe-page/assets/index-CEvoB6Vy.js"></script>
+  <link rel="stylesheet" crossorigin href="/Recipe-page/assets/index-CD-R-S70.css">
 </head>
 
 <body>
@@ -29,7 +68,7 @@
           </p>
         </section>
         <section class="preparation">
-          <h3 class="preparation__title">Preparation time</h3>
+          <h2 class="preparation__title">Preparation time</h2>
           <ul class="centered-list">
             <li>
               <div class="text-bullet-centered bullet-color">&#x2022;</div><span class="bold">Total:</span> Approximately 10 minutes
@@ -113,8 +152,9 @@
       </article>
     </main>
     <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      <br>Coded by <a href="#">Darek Duda</a>.
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+      <img id="cat-icon" src="./images/cat.svg" width="64" height="64" alt="Cat Icon">
+      <p id="description">Coded by Darek Duda</p>
     </footer>
   </div>
 </body>
