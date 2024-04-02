@@ -21,13 +21,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./docs/screenshot-desktop.png)
-
-![](./docs/screenshot-mobile.png)
-
 desktop preview
 
-<img alt="desktop view screenshot" src="./docs/screenshot.png" width="700" height="400">
+<img alt="desktop view screenshot" src="./docs/screenshot-desktop.png" width="700" height="400">
 
 mobile view
 
