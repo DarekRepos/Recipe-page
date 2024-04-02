@@ -25,6 +25,9 @@
 
 section {
     margin-inline: 2rem;
+    @include r.media-up('md') {
+        margin-inline: 0;
+    }
 }
 
 body {
