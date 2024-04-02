@@ -33,7 +33,7 @@ mobile view
 
 ### Links
 
-- Solution URL: [solution URL here](https://DarekRepos.github.io/Recipe-page/)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/recipe-page-Qeh2689taZ)
 - Live Site URL: [live site URL here](https://DarekRepos.github.io/Recipe-page/)
 
 ## My process
